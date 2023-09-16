@@ -10,9 +10,11 @@
 .navbar {
     height: 60px;
     background-color: #0F1111;
+    display: flex;
+    align-items: center;
 }
 
-.nav-logo {
+/* .nav-logo {
     height: 50px;
     width: 100;
 }
@@ -22,6 +24,53 @@
     height: 50px;
     width: 100%;
     background-size: cover;
+}
+ */
+
+
+ .navbar .nav-logo .logo img {
+    width: 98px;
+    margin-left: 19px;
+    margin-top: 11px;
+    
+
+}
+ 
+
+.border {
+    border: 1.5px solid transparent;
+    
+}
+
+.border:hover{
+    border: 1.5px solid #ffffff;
+    
+}
+.nav-address {
+    margin-left: 17px;
+    border: 1.5px solid transparent;
+}
+
+.add-first{
+    color: #CCCCCCCC;
+    font-size: 0.77rem;
+    margin-left: 14px;
+}
+
+.add-sec{
+    color: #ffffff;
+    font-size: 0.875rem;
+    margin-left: 3px;
+    font-weight: 600;
+    
+}
+
+.add-icons {
+    display: flex;
+    align-items: center;
+}
+.nav-address:hover {
+    border: 1.5px solid #ffffff;
 }
 
 
