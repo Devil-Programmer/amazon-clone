@@ -11,10 +11,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <head>
+    <header>
       <div class="navbar">
         <div class="nav-logo">
           <div class="logo">
@@ -24,11 +28,64 @@
         <div class="nav-address">
           <p class="add-first">Delever to</p>
           <div class="add-icons">
-            <i class="fa-solid fa-location-dot" style="color: #ffffff;"></i>
+            <i class="fa-solid fa-location-dot" style="color: #ffffff"></i>
             <p class="add-sec">Bangladesh</p>
           </div>
         </div>
+
+        <div class="nav-search">
+          <select class="search-select">
+            <option>All</option>
+            <input
+              type="text"
+              placeholder="Search Amazon"
+              class="search-input"
+            />
+          </select>
+          <div class="s-icon">
+            <i class="fa-solid fa-magnifying-glass" style="color: #333333"></i>
+          </div>
+        </div>
+        <div class="bd-en">
+          <div class="flag">
+            <img
+              src="bd.png"
+              alt="bd"
+              style="width: 26px; border-radius: 4px"
+            />
+            <select class="flag-select">
+              <option>EN</option>
+            </select>
+          </div>
+        </div>
+        <div class="box-5">
+          <p>Hello, sign in</p>
+          <select class="box-5-option">
+            <option>Accounts & Lists</option>
+          </select>
+        </div>
+        <div class="box-6">
+          <p class="box-6-p">Returns</p>
+          <p class="box-6-p2">& Orders</p>
+        </div>
+        <div class="last-nav-box-cart">
+          <i class="bx bx-cart-add" class="cart-icon"></i>
+          <span class="cart-text">Cart</span>
+        </div>
       </div>
-    </head>
+      <div class="second-panel">
+        <div class="all-icon">
+          <i class="fa-solid fa-bars"></i>
+          <span class="all-text">All</span>
+        </div>
+        <div class="second-panel-a">
+          <a href="#" class="fis">Today's Deals</a>
+          <a href="#" class="sec">Customer Service</a>
+          <a href="#" class="thr">Registry</a>
+          <a href="#" class="for">Gift Cards</a>
+          <a href="#" class="fif">Sell</a>
+        </div>
+      </div>
+    </header>
   </body>
 </html>
