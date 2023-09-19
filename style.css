@@ -29,6 +29,15 @@ body {
     background-size: cover;
 }
  */
+ h2 {
+  cursor: pointer;
+ }
+ span {
+  cursor: pointer;
+ }
+ p { 
+  cursor: pointer;
+ }
 
 .navbar .nav-logo .logo img {
   width: 98px;
@@ -249,8 +258,8 @@ body {
   font-weight: 600;
   font-size: 15px;
   position: relative;
-  bottom: -9px;
-  right: 811px;
+  bottom: -10px;
+  right: 781px;
 }
 
 .second-panel .second-panel-a .fis {
@@ -486,7 +495,7 @@ body {
 
 .adver img {
   position: relative;
-  left: 1035px;
+  left: 1021px;
   bottom: 510px;
   width: 298px;
 }
@@ -521,12 +530,12 @@ body {
   width: 277px;
   height: 290px;
   left: 11px;
-  bottom: -6px;
+  bottom: -19px;
 }
 
 .shop-section-2 .box5 a {
   position: relative;
-  bottom: -32px;
+  bottom: -34px;
   right: -14px;
   text-decoration: none;
   color: #007185;
