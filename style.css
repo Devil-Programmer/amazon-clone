@@ -464,7 +464,7 @@ body {
 
 .shop-section .box4 .box4-button button {
   position: relative;
-  left: 33px;
+  left: 16px;
   bottom: -22px;
   width: 274px;
   height: 34px;
@@ -486,10 +486,161 @@ body {
 
 .adver img {
   position: relative;
-  left: 1037px;
+  left: 1035px;
   bottom: 510px;
   width: 298px;
 }
 
+.shop-section-2 {
+  display: flex;
+  background-color: transparent;
+  justify-content: space-evenly;
+  position: relative;
+  top: -263px;
+}
+
+.shop-section-2 .boxx {
+  height: 400px;
+  width: 22%;
+  background-color: white;
+  position: relative;
+  top: -209px;
+}
 
 
+/* shop section 2 */
+
+.shop-section-2 .box5 h2 {
+  font-size: 23px;
+  margin-top: 13px;
+  margin-left: 5px;
+}
+
+.shop-section-2 .box5 img {
+  position: relative;
+  width: 277px;
+  height: 290px;
+  left: 11px;
+  bottom: -6px;
+}
+
+.shop-section-2 .box5 a {
+  position: relative;
+  bottom: -32px;
+  right: -14px;
+  text-decoration: none;
+  color: #007185;
+}
+
+.shop-section-2 .box5 a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.shop-section-2 .box6 h2 {
+  font-size: 23px;
+  margin-top: 13px;
+  margin-left: 5px;
+}
+
+.shop-section-2 .box6 img {
+  position: relative;
+  width: 277px;
+  height: 290px;
+  left: 11px;
+  bottom: -19px;
+}
+
+.shop-section-2 .box6 a {
+  position: relative;
+  bottom: -34px;
+  right: -14px;
+  text-decoration: none;
+  color: #007185;
+}
+
+.shop-section-2 .box6 a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+
+.shop-section-2 .box7 h2 {
+  font-size: 23px;
+  margin-top: 13px;
+  margin-left: 5px;
+}
+
+.shop-section-2 .box7 img {
+  position: relative;
+  width: 277px;
+  height: 290px;
+  left: 11px;
+  bottom: -19px;
+}
+
+.shop-section-2 .box7 a {
+  position: relative;
+  bottom: -34px;
+  right: -14px;
+  text-decoration: none;
+  color: #007185;
+}
+
+.shop-section-2 .box7 a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.shop-section-2 .box7 .info {
+  position: relative;
+  top: -21px;
+  left: 10px;
+  font-size: 14px;
+}
+
+.shop-section-2 .box7 .info .fir {
+  background: #cc0c39;
+  color: white;
+  font-size: 16px;
+}
+
+.shop-section-2 .box7 .info .sec {
+  color: red;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.shop-section-2 .box7 .info p {
+  font-size: 14px;
+  position: relative;
+  bottom: -3px;
+  color: black;
+}
+
+.shop-section-2 .box8 h2 {
+  font-size: 23px;
+  margin-top: 13px;
+  margin-left: 5px;
+}
+
+.shop-section-2 .box8 img {
+  position: relative;
+  width: 277px;
+  height: 290px;
+  left: 11px;
+  bottom: -19px;
+}
+
+.shop-section-2 .box8 a {
+  position: relative;
+  bottom: -34px;
+  right: -14px;
+  text-decoration: none;
+  color: #007185;
+}
+
+.shop-section-2 .box8 a:hover {
+  text-decoration: underline;
+  color: orange;
+}
