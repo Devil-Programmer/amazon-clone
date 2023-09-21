@@ -7,6 +7,7 @@
 
 body {
   background-color: #e3e6e6;
+  overflow-x: hidden;
 }
 
 .navbar {
@@ -17,27 +18,17 @@ body {
   justify-content: space-evenly;
 }
 
-/* .nav-logo {
-    height: 50px;
-    width: 100;
+h2 {
+  cursor: pointer;
 }
 
-.logo {
-    background-image: url("logo.png");
-    height: 50px;
-    width: 100%;
-    background-size: cover;
+span {
+  cursor: pointer;
 }
- */
- h2 {
+
+p {
   cursor: pointer;
- }
- span {
-  cursor: pointer;
- }
- p { 
-  cursor: pointer;
- }
+}
 
 .navbar .nav-logo .logo img {
   width: 98px;
@@ -516,7 +507,6 @@ body {
   top: -209px;
 }
 
-
 /* shop section 2 */
 
 .shop-section-2 .box5 h2 {
@@ -572,7 +562,6 @@ body {
   text-decoration: underline;
   color: orange;
 }
-
 
 .shop-section-2 .box7 h2 {
   font-size: 23px;
@@ -653,17 +642,19 @@ body {
   text-decoration: underline;
   color: orange;
 }
+
 /* second component */
 .second-component {
-    height: 300px;
-    width: 1285px;
-    display: flex;
-    justify-content: space-evenly;
-    background-color: white;
-    position: relative;
-    bottom: 450px;
-    left: 33px;
+  height: 300px;
+  width: 1285px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  position: relative;
+  bottom: 450px;
+  left: 33px;
 }
+
 .second-component img {
   width: 184px;
   height: 184px;
@@ -672,9 +663,9 @@ body {
 }
 
 .txt2 {
-    position: relative;
-    bottom: -51px;
-    left: -5px;
+  position: relative;
+  bottom: -51px;
+  left: -5px;
 }
 
 .txt2 .sp1 {
@@ -717,35 +708,35 @@ body {
 }
 
 .txt3 .sp1 {
-position: relative;
-background: #cc0c39;
-color: white;
-font-weight: 600;
+  position: relative;
+  background: #cc0c39;
+  color: white;
+  font-weight: 600;
 }
 
 .txt3 .sp2 {
-font-size: 14px;
-font-weight: 600;
-color: red;
+  font-size: 14px;
+  font-weight: 600;
+  color: red;
 }
 
 .txt3 .sp3 {
-font-size: 16px;
-font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .txt3 .sp4 {
-position: relative;
-font-weight: 600;
-font-size: 12px;
-left: 16px;
+  position: relative;
+  font-weight: 600;
+  font-size: 12px;
+  left: 16px;
 }
 
 .txt3 .p1 {
-position: relative;
-font-size: 12px;
-bottom: -3px;
-color: #2a2b2b;
+  position: relative;
+  font-size: 12px;
+  bottom: -3px;
+  color: #2a2b2b;
 }
 
 /*  */
@@ -756,36 +747,37 @@ color: #2a2b2b;
 }
 
 .txt4 .sp1 {
-position: relative;
-background: #cc0c39;
-color: white;
-font-weight: 600;
+  position: relative;
+  background: #cc0c39;
+  color: white;
+  font-weight: 600;
 }
 
 .txt4 .sp2 {
-font-size: 14px;
-font-weight: 600;
-color: red;
+  font-size: 14px;
+  font-weight: 600;
+  color: red;
 }
 
 .txt4 .sp3 {
-font-size: 16px;
-font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .txt4 .sp4 {
-position: relative;
-font-weight: 600;
-font-size: 12px;
-left: 16px;
+  position: relative;
+  font-weight: 600;
+  font-size: 12px;
+  left: 16px;
 }
 
 .txt4 .p1 {
-position: relative;
-font-size: 12px;
-bottom: -3px;
-color: #2a2b2b;
+  position: relative;
+  font-size: 12px;
+  bottom: -3px;
+  color: #2a2b2b;
 }
+
 /*  */
 
 .txt5 {
@@ -795,41 +787,36 @@ color: #2a2b2b;
 }
 
 .txt5 .sp1 {
-position: relative;
-background: #cc0c39;
-color: white;
-font-weight: 600;
+  position: relative;
+  background: #cc0c39;
+  color: white;
+  font-weight: 600;
 }
 
 .txt5 .sp2 {
-font-size: 14px;
-font-weight: 600;
-color: red;
+  font-size: 14px;
+  font-weight: 600;
+  color: red;
 }
 
 .txt5 .sp3 {
-font-size: 16px;
-font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .txt5 .sp4 {
-position: relative;
-font-weight: 600;
-font-size: 12px;
-left: 16px;
+  position: relative;
+  font-weight: 600;
+  font-size: 12px;
+  left: 16px;
 }
 
 .txt5 .p1 {
-position: relative;
-font-size: 12px;
-bottom: -3px;
-color: #2a2b2b;
+  position: relative;
+  font-size: 12px;
+  bottom: -3px;
+  color: #2a2b2b;
 }
-
-
-
-
-
 
 /* signup last  */
 
@@ -864,34 +851,35 @@ color: #2a2b2b;
   background-color: #ffce52;
   border: none;
 }
+
 .signup-last .signup-last-sub button a {
   text-decoration: none;
   color: black;
 }
+
 .signup-last .signup-last-sub p {
-    position: relative;
-    left: 554px;
-    top: 41px;
-    font-weight: 500;
+  position: relative;
+  left: 554px;
+  top: 41px;
+  font-weight: 500;
 }
 
 .devs {
-    position: relative;
-    top: 106px;
-    right: -92px;
+  position: relative;
+  top: 106px;
+  right: -92px;
 }
 
 .signup-last .signup-last-sub a {
-    text-decoration: none;
-    color: #007185;
+  text-decoration: none;
+  color: #007185;
 }
-.signup-last .signup-last-sub a:hover{
+
+.signup-last .signup-last-sub a:hover {
   color: #ffd814;
 }
 
-
-
-footer button {
+ footer button {
   width: 100%;
   height: 60px;
   background-color: #37475a;
@@ -915,63 +903,67 @@ footer button {
   left: 170px;
   bottom: -59px;
 }
+
 .footer-sub .div1 p {
   padding: 5px 0;
   font-size: 14px;
   color: white;
 }
 
-.footer-sub .div1 p:hover{
+.footer-sub .div1 p:hover {
   text-decoration: underline;
 }
 
-/*  */
+
 .footer-sub .div2 {
   position: relative;
   left: 415px;
   bottom: 123px;
 }
+
 .footer-sub .div2 p {
   padding: 5px 0;
   font-size: 14px;
   color: white;
 }
 
-.footer-sub .div2 p:hover{
+.footer-sub .div2 p:hover {
   text-decoration: underline;
 }
 
-/*  */
+
 
 .footer-sub .div3 {
   position: relative;
   left: 760px;
   bottom: 358px;
 }
+
 .footer-sub .div3 p {
   padding: 5px 0;
   font-size: 14px;
   color: white;
 }
 
-.footer-sub .div3 p:hover{
+.footer-sub .div3 p:hover {
   text-decoration: underline;
 }
 
-/*  */
+
 
 .footer-sub .div4 {
   position: relative;
   left: 1111px;
   bottom: 488px;
 }
+
 .footer-sub .div4 p {
   padding: 5px 0;
   font-size: 14px;
   color: white;
 }
 
-.footer-sub .div4 p:hover{
+.footer-sub .div4 p:hover {
   text-decoration: underline;
 }
 
@@ -1006,34 +998,41 @@ footer button {
 }
 
 .sub-last-div .box2 {
-    position: relative;
-    color: white;
-    left: 721px;
-    top: -2px;
-    height: 28px;
-    width: 220px;
-    background: transparent;
-    border: 1px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
+  position: relative;
+  color: white;
+  left: 721px;
+  top: -2px;
+  height: 28px;
+  width: 220px;
+  background: transparent;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
 }
 
 .sub-last-div .box3 {
-    position: relative;
-    color: white;
-    left: 954px;
-    top: -30px;
-    height: 28px;
-    width: 160px;
-    background: transparent;
-    border: 1px solid white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
+  position: relative;
+  color: white;
+  left: 954px;
+  top: -30px;
+  height: 28px;
+  width: 160px;
+  background: transparent;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
 }
+
+
+
+
+
+
+
 
 
 
