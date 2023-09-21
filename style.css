@@ -894,5 +894,74 @@ footer {
   width: 100%;
   background-color: #0F1111;
   position: relative;
-  bottom: 420px
+  bottom: 420px;
 }
+
+footer button {
+  width: 100%;
+  height: 60px;
+  background-color: #37475a;
+  color: white;
+  text-align: center;
+  border: none;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.footer-sub {
+  width: 100%;
+  height: 500px;
+  background-color: #232f3e;
+}
+
+.footer-sub .div1 {
+  position: relative;
+  left: 170px;
+  bottom: -59px;
+}
+.footer-sub .div1 p {
+  padding: 5px 0;
+  font-size: 14px;
+  color: white;
+}
+
+.footer-sub .div1 p:hover{
+  text-decoration: underline;
+}
+
+/*  */
+.footer-sub .div2 {
+  position: relative;
+  left: 415px;
+  bottom: 123px;
+}
+.footer-sub .div2 p {
+  padding: 5px 0;
+  font-size: 14px;
+  color: white;
+}
+
+.footer-sub .div2 p:hover{
+  text-decoration: underline;
+}
+
+/*  */
+
+.footer-sub .div3 {
+  position: relative;
+  left: 760px;
+  bottom: 358px;
+}
+.footer-sub .div3 p {
+  padding: 5px 0;
+  font-size: 14px;
+  color: white;
+}
+
+.footer-sub .div3 p:hover{
+  text-decoration: underline;
+}
+
+
+
+
