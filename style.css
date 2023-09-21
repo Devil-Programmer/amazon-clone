@@ -848,7 +848,7 @@ color: #2a2b2b;
   position: relative;
   height: 180px;
   width: 100%;
-  border: 0.5px solid black;
+  border: 0.5px solid #3a4553;
   display: flex;
   top: 0;
   border-radius: 4px;
@@ -889,13 +889,7 @@ color: #2a2b2b;
   color: #ffd814;
 }
 
-footer {
-  height: 1000px;
-  width: 100%;
-  background-color: #0F1111;
-  position: relative;
-  bottom: 420px;
-}
+
 
 footer button {
   width: 100%;
@@ -912,6 +906,8 @@ footer button {
   width: 100%;
   height: 500px;
   background-color: #232f3e;
+  position: relative;
+  bottom: 479px;
 }
 
 .footer-sub .div1 {
@@ -962,6 +958,82 @@ footer button {
   text-decoration: underline;
 }
 
+/*  */
+
+.footer-sub .div4 {
+  position: relative;
+  left: 1111px;
+  bottom: 488px;
+}
+.footer-sub .div4 p {
+  padding: 5px 0;
+  font-size: 14px;
+  color: white;
+}
+
+.footer-sub .div4 p:hover{
+  text-decoration: underline;
+}
+
+.sub-last-div {
+  position: relative;
+  width: 100%;
+  height: 140px;
+  border-top: 0.5px solid #3a4553;
+  top: -421px;
+}
+
+.sub-last-div img {
+  position: relative;
+  width: 91px;
+  left: 427px;
+  top: 61px;
+}
+
+.sub-last-div .box1 {
+  position: relative;
+  color: white;
+  left: 597px;
+  top: 26px;
+  height: 28px;
+  width: 105px;
+  background: transparent;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+.sub-last-div .box2 {
+    position: relative;
+    color: white;
+    left: 721px;
+    top: -2px;
+    height: 28px;
+    width: 220px;
+    background: transparent;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.sub-last-div .box3 {
+    position: relative;
+    color: white;
+    left: 954px;
+    top: -30px;
+    height: 28px;
+    width: 160px;
+    background: transparent;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
 
 
 
